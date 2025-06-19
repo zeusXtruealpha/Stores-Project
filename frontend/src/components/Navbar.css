@@ -1,0 +1,76 @@
+
+
+.navbar {
+  @apply bg-white/95 backdrop-blur-lg shadow-xl border-b border-gray-200/50 sticky top-0 z-50;
+  background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,250,252,0.95) 100%);
+}
+
+.navbar-container {
+  @apply w-full px-6 lg:px-8;
+}
+
+.navbar-content {
+  @apply flex justify-between items-center h-16 lg:h-20;
+}
+
+.navbar-left {
+  @apply flex items-center space-x-6 lg:space-x-8;
+}
+
+.navbar-logo {
+  @apply flex items-center space-x-3 text-xl lg:text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent hover:scale-105 transition-all duration-300;
+}
+
+.navbar-logo-icon {
+  @apply w-7 h-7 lg:w-8 lg:h-8 text-blue-600;
+}
+
+.navbar-logo-text {
+  @apply hidden sm:block;
+}
+
+.navbar-nav {
+  @apply hidden lg:flex space-x-1;
+}
+
+.nav-link {
+  @apply px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 whitespace-nowrap relative overflow-hidden;
+}
+
+.nav-link-active {
+  @apply bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg shadow-blue-500/25;
+}
+
+.nav-link-inactive {
+  @apply text-gray-700 hover:text-blue-600 hover:bg-blue-50/80 backdrop-blur-sm;
+}
+
+.nav-link-active-admin {
+  @apply bg-gradient-to-r from-red-500 to-pink-600 text-white shadow-lg shadow-red-500/25;
+}
+
+.nav-link-inactive-admin {
+  @apply text-red-600 hover:text-red-700 hover:bg-red-50/80 backdrop-blur-sm;
+}
+
+.navbar-right {
+  @apply flex items-center;
+}
+
+.navbar-auth {
+  @apply flex space-x-3;
+}
+
+.navbar-auth-login {
+  @apply px-5 py-2.5 text-sm font-medium text-blue-600 hover:text-blue-700 transition-all duration-300 rounded-xl hover:bg-blue-50/80 backdrop-blur-sm;
+}
+
+.navbar-auth-signup {
+  @apply px-5 py-2.5 text-sm font-medium bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105;
+}
+
+/* Mobile menu toggle */
+.mobile-menu-toggle {
+  @apply lg:hidden p-2 rounded-xl text-gray-700 hover:bg-gray-100 transition-colors;
+}
+

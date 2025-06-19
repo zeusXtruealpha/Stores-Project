@@ -1,0 +1,172 @@
+
+.stock-register-container {
+  @apply container mx-auto px-4 py-8 bg-gradient-to-br from-rose-50 via-pink-50 to-red-50 min-h-screen;
+}
+
+.stock-register-header {
+  @apply mb-8 text-center;
+}
+
+.stock-register-title {
+  @apply text-4xl font-bold bg-gradient-to-r from-rose-600 via-pink-600 to-red-600 bg-clip-text text-transparent mb-3 flex items-center justify-center gap-3;
+}
+
+.stock-register-title-icon {
+  @apply w-10 h-10 text-rose-600;
+}
+
+.stock-register-subtitle {
+  @apply text-gray-600 text-lg;
+}
+
+.stock-register-summary-cards {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-8 mb-10;
+}
+
+.stock-register-summary-card {
+  @apply shadow-2xl border-0 rounded-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl backdrop-blur-sm;
+}
+
+.stock-register-summary-card-blue {
+  @apply bg-gradient-to-br from-rose-400 via-rose-500 to-rose-600 text-white;
+}
+
+.stock-register-summary-card-green {
+  @apply bg-gradient-to-br from-pink-400 via-pink-500 to-pink-600 text-white;
+}
+
+.stock-register-summary-card-red {
+  @apply bg-gradient-to-br from-red-400 via-red-500 to-red-600 text-white;
+}
+
+.stock-register-summary-card-content {
+  @apply p-8;
+}
+
+.stock-register-summary-card-inner {
+  @apply flex items-center justify-between;
+}
+
+.stock-register-summary-card-label {
+  @apply text-sm font-semibold uppercase tracking-wider opacity-90;
+}
+
+.stock-register-summary-card-value {
+  @apply text-4xl font-bold mt-2;
+}
+
+.stock-register-summary-card-icon {
+  @apply w-12 h-12 opacity-80;
+}
+
+.stock-register-filter-card {
+  @apply mb-8 shadow-2xl border-0 rounded-2xl bg-white/80 backdrop-blur-lg;
+}
+
+.stock-register-filter-content {
+  @apply p-8;
+}
+
+.stock-register-filter-row {
+  @apply flex flex-col lg:flex-row gap-6 mb-6;
+}
+
+.stock-register-search-container {
+  @apply flex-1 relative;
+}
+
+.stock-register-search-icon {
+  @apply absolute left-4 top-4 h-5 w-5 text-gray-400;
+}
+
+.stock-register-search-input {
+  @apply pl-12 h-12 text-base rounded-xl border-2 border-gray-200 focus:border-rose-500 transition-all duration-300;
+}
+
+.stock-register-filter-controls {
+  @apply flex gap-4 flex-wrap items-center;
+}
+
+.stock-register-filter-select {
+  @apply w-48 h-12 rounded-xl border-2 border-gray-200 focus:border-rose-500;
+}
+
+.stock-register-download-buttons {
+  @apply flex gap-3 flex-wrap;
+}
+
+.stock-register-download-btn {
+  @apply h-11 px-6 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg;
+}
+
+.stock-register-download-btn-blue {
+  @apply bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white;
+}
+
+.stock-register-download-btn-green {
+  @apply bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white;
+}
+
+.stock-register-download-btn-purple {
+  @apply bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white;
+}
+
+.stock-register-download-icon {
+  @apply w-4 h-4 mr-2;
+}
+
+.stock-register-table-card {
+  @apply shadow-2xl border-0 rounded-2xl bg-white/90 backdrop-blur-lg overflow-hidden;
+}
+
+.stock-register-table-title {
+  @apply flex items-center gap-3 text-2xl font-bold text-gray-800;
+}
+
+.stock-register-table-icon {
+  @apply w-6 h-6 text-rose-600;
+}
+
+.stock-register-table-container {
+  @apply overflow-x-auto rounded-xl;
+}
+
+.stock-register-table-head {
+  @apply text-left font-bold text-gray-700 bg-gradient-to-r from-gray-50 to-gray-100 py-4 px-6 border-b-2 border-gray-200;
+}
+
+.stock-register-table-row {
+  @apply hover:bg-gradient-to-r hover:from-rose-50 hover:to-pink-50 transition-all duration-200 border-b border-gray-100;
+}
+
+.stock-register-table-cell {
+  @apply py-4 px-6 text-sm;
+}
+
+.stock-register-table-cell-code {
+  @apply font-mono text-rose-600 font-semibold bg-rose-50 rounded-lg px-3 py-1;
+}
+
+.stock-register-table-cell-desc {
+  @apply max-w-[250px] truncate font-medium text-gray-700;
+}
+
+.stock-register-table-cell-qty {
+  @apply font-bold text-pink-600;
+}
+
+.stock-register-table-cell-remarks {
+  @apply max-w-[200px] truncate text-gray-600;
+}
+
+.stock-register-badge {
+  @apply bg-gradient-to-r from-rose-500 to-rose-600 text-white hover:from-rose-600 hover:to-rose-700 px-3 py-1 rounded-full text-xs font-semibold;
+}
+
+.stock-register-empty-state {
+  @apply text-center py-16 text-gray-500;
+}
+
+.stock-register-empty-icon {
+  @apply w-16 h-16 mx-auto mb-6 opacity-30;
+}

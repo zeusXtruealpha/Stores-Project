@@ -1,0 +1,500 @@
+.home-container {
+  @apply min-h-screen bg-gradient-to-br from-gray-50 py-8;
+}
+
+.home-inner {
+  @apply container mx-auto px-4 max-w-7xl;
+}
+
+.home-header {
+  @apply mb-12 text-center;
+}
+
+.home-title {
+  @apply text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent mb-4 flex items-center justify-center gap-4;
+}
+
+.home-title-icon {
+  @apply w-12 h-12 lg:w-16 lg:h-16 text-blue-600;
+}
+
+.home-subtitle {
+  @apply text-gray-600 text-lg lg:text-xl max-w-2xl mx-auto;
+}
+
+.summary-cards {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-8;
+}
+
+.summary-card {
+  @apply rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105;
+}
+
+.summary-card-blue {
+  @apply bg-gradient-to-r from-blue-500 to-blue-600 text-white;
+}
+
+.summary-card-green {
+  @apply bg-gradient-to-r from-green-500 to-green-600 text-white;
+}
+
+.summary-card-red {
+  @apply bg-gradient-to-r from-red-500 to-red-600 text-white;
+}
+
+.summary-card-purple {
+  @apply bg-gradient-to-r from-purple-500 to-purple-600 text-white;
+}
+
+.summary-card-orange {
+  @apply bg-gradient-to-r from-orange-500 to-orange-600 text-white;
+}
+
+.summary-card-content {
+  @apply p-6;
+}
+
+.summary-card-inner {
+  @apply flex items-center justify-between;
+}
+
+.summary-card-label {
+  @apply text-sm font-semibold uppercase tracking-wider opacity-75;
+}
+
+.summary-card-value {
+  @apply text-3xl font-bold;
+}
+
+.summary-card-icon {
+  @apply w-10 h-10 opacity-75;
+}
+
+.data-table-card {
+  @apply shadow-2xl border-0 rounded-3xl overflow-hidden bg-white/90 backdrop-blur-lg mb-8;
+}
+
+.data-table-title {
+  @apply flex items-center justify-between;
+}
+
+.data-table-title-left {
+  @apply flex items-center gap-3 text-xl font-bold text-gray-800;
+}
+
+.data-table-icon {
+  @apply w-6 h-6 text-blue-600;
+}
+
+.data-table-controls {
+  @apply flex items-center gap-4;
+}
+
+.search-container {
+  @apply relative;
+}
+
+.search-icon {
+  @apply absolute left-3 top-3 h-4 w-4 text-gray-400;
+}
+
+.search-input {
+  @apply pl-10 h-10 w-64 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300;
+}
+
+.filter-select {
+  @apply w-40 h-10 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300;
+}
+
+.download-buttons {
+  @apply flex gap-2;
+}
+
+.download-btn {
+  @apply h-10 px-5 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105;
+}
+
+.download-btn-blue {
+  @apply bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white;
+}
+
+.download-btn-green {
+  @apply bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white;
+}
+
+.download-btn-purple {
+  @apply bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white;
+}
+
+.download-icon {
+  @apply w-4 h-4 mr-2;
+}
+
+.table-container {
+  @apply overflow-x-auto;
+}
+
+.data-table {
+  @apply w-full;
+}
+
+.table-header {
+  @apply bg-gradient-to-r from-gray-50 to-gray-100;
+}
+
+.table-th {
+  @apply text-left p-3 font-bold text-gray-700 border-b-2 border-gray-200;
+}
+
+.table-row {
+  @apply border-b border-gray-100 hover:bg-gray-50 transition-all duration-300;
+}
+
+.table-td {
+  @apply p-3 text-sm;
+}
+
+.table-td-code {
+  @apply font-mono text-blue-600 font-semibold bg-blue-50 rounded-lg px-2 py-1;
+}
+
+.badge {
+  @apply px-3 py-1 rounded-full text-xs font-semibold;
+}
+
+.badge-inward {
+  @apply bg-green-100 text-green-700;
+}
+
+.badge-outward {
+  @apply bg-red-100 text-red-700;
+}
+
+.badge-damaged {
+  @apply bg-orange-100 text-orange-700;
+}
+
+.two-column-layout {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-8;
+}
+
+.recent-transactions-card {
+  @apply shadow-2xl border-0 rounded-3xl overflow-hidden bg-white/90 backdrop-blur-lg;
+  grid-column: span 1; /* 50% width */
+}
+
+.card-header {
+  @apply bg-gradient-to-r from-emerald-500 to-teal-600 p-6 text-white;
+}
+
+.card-title {
+  @apply text-2xl font-bold text-gray-800;
+}
+
+.card-icon {
+  @apply w-8 h-8 mr-2;
+}
+
+.transactions-list {
+  @apply space-y-4;
+}
+
+.transaction-item {
+  @apply flex items-center justify-between p-4 bg-gray-50 rounded-xl border border-gray-200;
+}
+
+.transaction-left {
+  @apply flex items-center gap-3;
+}
+
+.transaction-icon {
+  @apply w-6 h-6;
+}
+
+.transaction-icon-green {
+  @apply text-green-600;
+}
+
+.transaction-icon-red {
+  @apply text-red-600;
+}
+
+.transaction-icon-orange {
+  @apply text-orange-600;
+}
+
+.transaction-code {
+  @apply font-mono text-sm font-semibold text-blue-600;
+}
+
+.transaction-desc {
+  @apply text-sm text-gray-600;
+}
+
+.transaction-by {
+  @apply text-xs text-gray-500;
+}
+
+.transaction-right {
+  @apply text-right;
+}
+
+.transaction-badge {
+  @apply px-2 py-1 rounded-full text-xs font-semibold;
+}
+
+.transaction-badge-inward {
+  @apply bg-green-100 text-green-700;
+}
+
+.transaction-badge-outward {
+  @apply bg-red-100 text-red-700;
+}
+
+.transaction-badge-damaged {
+  @apply bg-orange-100 text-orange-700;
+}
+
+.transaction-qty {
+  @apply text-sm font-semibold text-gray-700;
+}
+
+.transaction-date {
+  @apply text-xs text-gray-500;
+}
+
+.calendar-container {
+  @apply grid grid-cols-1 gap-6;
+}
+
+.split-calendar-container {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-6;
+}
+
+.calendar-half {
+  @apply h-full;
+}
+
+.storage-locations-card {
+  @apply shadow-2xl border-0 rounded-3xl overflow-hidden bg-white/90 backdrop-blur-lg;
+}
+
+.location-item {
+  @apply flex items-center justify-between p-4 border-b border-gray-200 last:border-b-0;
+}
+
+.location-left {
+  @apply flex items-center gap-3;
+}
+
+.location-icon {
+  @apply w-5 h-5 text-indigo-600;
+}
+
+.location-name {
+  @apply font-semibold text-gray-700;
+}
+
+.location-type {
+  @apply text-xs text-gray-500;
+}
+
+.location-right {
+  @apply text-right;
+}
+
+.location-count {
+  @apply text-xl font-bold text-indigo-600;
+}
+
+.location-label {
+  @apply text-xs text-gray-500;
+}
+
+.monthly-analysis-card {
+  @apply shadow-2xl border-0 rounded-3xl overflow-hidden bg-white/90 backdrop-blur-lg;
+}
+
+.statistics-card {
+  @apply shadow-2xl border-0 rounded-3xl overflow-hidden bg-white/90 backdrop-blur-lg;
+  grid-column: span 1; /* 50% width */
+}
+
+.stat-item {
+  @apply transform transition-all duration-300 hover:scale-105;
+}
+
+.card-icon-green {
+  @apply text-emerald-600;
+}
+
+.card-icon-indigo {
+  @apply text-indigo-600;
+}
+
+.card-icon-blue {
+  @apply text-blue-600;
+}
+
+/* Enhanced gradient backgrounds for better visual separation */
+.home-container {
+  @apply min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 py-8;
+  background-image: 
+    radial-gradient(at 47% 33%, hsl(230, 100%, 95%) 0, transparent 59%), 
+    radial-gradient(at 82% 65%, hsl(218, 100%, 95%) 0, transparent 55%),
+    radial-gradient(at 15% 85%, hsl(200, 100%, 97%) 0, transparent 40%);
+}
+
+/* Cool shadow effects for cards */
+.summary-card,
+.data-table-card,
+.recent-transactions-card,
+.calendar-card,
+.statistics-card,
+.storage-locations-card,
+.monthly-analysis-card {
+  @apply shadow-2xl hover:shadow-2xl transition-all duration-500;
+}
+
+/* Glassmorphism effects */
+.data-table-card,
+.recent-transactions-card,
+.calendar-card,
+.statistics-card,
+.storage-locations-card,
+.monthly-analysis-card {
+  @apply bg-white/90 backdrop-blur-xl border border-white/20;
+}
+
+.stats-header {
+  @apply bg-gradient-to-r from-blue-500 to-purple-600 p-6 text-white;
+}
+
+.stats-content {
+  @apply p-6;
+}
+
+.stats-grid {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.stat-card {
+  @apply bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-xl border border-blue-200/50 text-center;
+}
+
+.stat-value {
+  @apply text-2xl font-bold text-blue-700;
+}
+
+.stat-label {
+  @apply text-sm text-gray-600 mt-1;
+}
+
+.live-metrics {
+  @apply mt-6 space-y-3;
+}
+
+.metric-item {
+  @apply flex justify-between items-center p-3 bg-gray-50 rounded-lg;
+}
+
+.metric-label {
+  @apply text-sm font-medium text-gray-700;
+}
+
+.metric-value {
+  @apply text-sm font-bold text-blue-600;
+}
+
+.data-table-with-calendar {
+  @apply flex gap-6 mb-8;
+}
+
+.data-table-card {
+  @apply flex-1 shadow-2xl border-0 rounded-3xl overflow-hidden bg-white/90 backdrop-blur-lg;
+  flex: 0 0 75%;
+}
+
+.calendar-sidebar {
+  @apply flex-shrink-0;
+  flex: 0 0 25%;
+}
+
+/* Adjust table controls for smaller space */
+.data-table-controls {
+  @apply flex items-center gap-2;
+}
+
+.search-input {
+  @apply pl-10 h-10 w-48 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300;
+}
+
+.filter-select {
+  @apply w-32 h-10 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300;
+}
+
+.download-buttons {
+  @apply flex gap-1;
+}
+
+.download-btn {
+  @apply h-10 px-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 text-xs;
+}
+
+/* Bottom layout for Storage Locations and Monthly Analysis - 50/50 split */
+.bottom-two-column-layout {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-8;
+}
+
+.storage-locations-card {
+  @apply shadow-2xl border-0 rounded-3xl overflow-hidden bg-white/90 backdrop-blur-lg;
+}
+
+.monthly-analysis-card {
+  @apply shadow-2xl border-0 rounded-3xl overflow-hidden bg-white/90 backdrop-blur-lg;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .data-table-with-calendar {
+    @apply flex-col;
+  }
+  
+  .data-table-card {
+    flex: 1;
+  }
+  
+  .calendar-sidebar {
+    flex: 1;
+  }
+  
+  .search-input {
+    @apply w-40;
+  }
+  
+  .filter-select {
+    @apply w-28;
+  }
+  
+  .download-buttons {
+    @apply w-full justify-center;
+  }
+}
+
+@media (max-width: 768px) {
+  .data-table-controls {
+    @apply flex-col gap-3;
+  }
+  
+  .search-input {
+    @apply w-full;
+  }
+  
+  .filter-select {
+    @apply w-full;
+  }
+  
+  .download-buttons {
+    @apply w-full justify-center;
+  }
+}

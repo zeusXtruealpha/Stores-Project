@@ -1,0 +1,105 @@
+
+
+.update-center-container {
+  @apply min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-100 py-8;
+  background-image: 
+    radial-gradient(at 47% 33%, hsl(180, 100%, 95%) 0, transparent 59%), 
+    radial-gradient(at 82% 65%, hsl(160, 100%, 95%) 0, transparent 55%);
+}
+
+.update-center-inner {
+  @apply container mx-auto px-4 max-w-6xl;
+}
+
+.update-center-header {
+  @apply mb-12 text-center;
+}
+
+.update-center-title {
+  @apply text-5xl lg:text-6xl font-bold bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent mb-4 flex items-center justify-center gap-4;
+}
+
+.update-center-title-icon {
+  @apply w-12 h-12 lg:w-16 lg:h-16 text-emerald-600;
+}
+
+.update-center-subtitle {
+  @apply text-gray-600 text-lg lg:text-xl max-w-2xl mx-auto;
+}
+
+.update-center-main-card {
+  @apply shadow-2xl border-0 rounded-3xl overflow-hidden bg-white/90 backdrop-blur-lg;
+}
+
+.update-center-card-header {
+  @apply bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 p-8 text-white;
+}
+
+.update-center-card-title {
+  @apply text-2xl lg:text-3xl font-bold flex items-center gap-4;
+}
+
+.update-center-card-icon {
+  @apply w-8 h-8;
+}
+
+.update-center-form-container {
+  @apply p-8 lg:p-12;
+}
+
+.update-center-form {
+  @apply space-y-8;
+}
+
+.update-center-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+.update-center-field-group {
+  @apply space-y-3;
+}
+
+.update-center-label {
+  @apply flex items-center gap-3 text-sm font-semibold text-gray-700 mb-2;
+}
+
+.update-center-label-icon {
+  @apply w-5 h-5 text-emerald-600;
+}
+
+.update-center-input {
+  @apply bg-white border-2 border-gray-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 rounded-xl h-12 px-4 transition-all duration-300 hover:border-gray-300;
+}
+
+.update-center-select {
+  @apply bg-white border-2 border-gray-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 rounded-xl h-12 transition-all duration-300 hover:border-gray-300;
+}
+
+.update-center-textarea {
+  @apply bg-white border-2 border-gray-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 rounded-xl p-4 transition-all duration-300 hover:border-gray-300 min-h-[100px] resize-y;
+}
+
+.update-center-field-full {
+  @apply md:col-span-2 lg:col-span-3;
+}
+
+.update-center-field-double {
+  @apply md:col-span-2;
+}
+
+.update-center-actions {
+  @apply flex gap-6 pt-8 border-t border-gray-200;
+}
+
+.update-center-submit-btn {
+  @apply flex-1 bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-700 hover:via-teal-700 hover:to-cyan-700 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3;
+}
+
+.update-center-clear-btn {
+  @apply px-8 py-4 border-2 border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400 rounded-xl transition-all duration-300 font-semibold flex items-center gap-3;
+}
+
+.update-center-btn-icon {
+  @apply w-5 h-5;
+}
+
